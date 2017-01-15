@@ -161,7 +161,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ![bits sent per second](naudio-0video-corei7-local-bitsSentPerSecond.jpg)
 ---
 
-Увеличение нагрузки практически не сказывается только на задержках, RTT не превышает 50ms:
+Увеличение нагрузки практически не сказывается на задержках, RTT не превышает 50ms:
 
 ![current delay](naudio-0video-corei7-local-CurrentDelayMs.jpg)
 ---
