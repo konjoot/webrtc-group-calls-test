@@ -219,6 +219,7 @@ C первой сессии качество видео начинает пон�
 
 ### Видео.
 Качество отправляемого видео понинижается с первой сессии 640х480 -> 480x360 -> 360x240, качество входящего видео - остается неизменным:
+
 ![video height sent](naudio-nvideo-dualCore-remoteFrameHeightSent.jpg)
 ![video width sent](naudio-nvideo-dualCore-remote-FrameWidthSent.jpg)
 ![video frame received](naudio-nvideo-dualCore-remote-FrameReceived.jpg)
