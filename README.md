@@ -94,22 +94,21 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 
 Пакеты не теряются:
 
----
 ![bits received per second](naudio-nvideo-corei7-local-bitsReceivedPerSecond.jpg)
 ![bits sent per second](naudio-nvideo-corei7-local-bitsSentPerSecond.jpg)
 ---
 
 Увеличение нагрузки сказывается только на задержках до 350 ms и RTT до 180ms:
 
----
 ![current delay](naudio-nvideo-corei7-local-googCurrentDelayMs.jpg)
 ![round trip time](naudio-nvideo-corei7-local-Rtt.jpg)
 ---
 
-
 ## Видео.
 Пакеты не теряются, однако с пятой сессии качество видео начинает понижаться с 640х480 -> 480x360 -> 360x240:
 ![video degradation](naudio-nvideo-corei7-local-video-degradation.jpg)
+---
 
 и уменьшается кол-во передаваемых пакетов, но пакеты не теряются:
 ![video degradation bits](naudio-nvideo-corei7-local-video-degradation-bits.jpg)
+---
