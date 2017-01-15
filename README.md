@@ -111,7 +111,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ![video degradation](naudio-nvideo-corei7-local-video-degradation.jpg)
 ---
 
-и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задершжки достигают 250ms:
+и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задержки достигают 250ms:
 ![video degradation bits](naudio-nvideo-corei7-local-video-degradation-bits.jpg)
 ---
 
@@ -141,7 +141,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ![video degradation 2](naudio-1video-corei7-local-video-degradation-2.jpg)
 ---
 
-и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задершжки достигают 140ms:
+и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задержки достигают 140ms:
 ![video degradation bits 1](naudio-1video-corei7-local-video-degradation-bits-1.jpg)
 ![video degradation bits 2](naudio-1video-corei7-local-video-degradation-bits-2.jpg)
 ![video degradation bits 3](naudio-1video-corei7-local-video-degradation-bits-3.jpg)
