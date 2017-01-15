@@ -90,7 +90,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 
 ## HP семь локальных N аудио + N видео сессий.
 
-В этом тесте было установлено 7 локальных сессий с разных владок браузера (GoogleChrome) к восьмой вкладке, на которой и проводился тест. Т.к. для передачи медиа использовался localhost сетевые потери минимальны.
+В этом тесте было установлено 7 локальных сессий (аудио и видео) с разных владок браузера (GoogleChrome) к восьмой вкладке (аудио и видео), на которой и проводился тест. Т.к. для передачи медиа использовался localhost сетевые потери минимальны.
 
 ### Аудио.
 
@@ -116,4 +116,37 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ---
 
 В целом не смотря на то, что задержки порой были ощутимы и деградацию видео групповой звонок работал до конца теста.
+
+## HP семь локальных N аудио + 1 видео сессий.
+
+В этом тесте было установлено 7 локальных (только аудио) сессий с разных владок браузера (GoogleChrome) к восьмой вкладке (аудио и видео), на которой и проводился тест. Т.к. для передачи медиа использовался localhost сетевые потери минимальны.
+
+### Аудио.
+
+Пакеты не теряются:
+
+![bits received per second](naudio-nvideo-corei7-local-bitsReceivedPerSecond.jpg)
+![bits sent per second](naudio-nvideo-corei7-local-bitsSentPerSecond.jpg)
+---
+
+Увеличение нагрузки сказывается только на задержках до 220 ms и RTT до 90ms:
+
+![current delay](naudio-nvideo-corei7-local-googCurrentDelayMs.jpg)
+![round trip time](naudio-nvideo-corei7-local-Rtt.jpg)
+---
+
+### Видео.
+Пакеты не теряются, однако с шестой сессии качество видео начинает понижаться с 640х480 -> 480x360:
+![video degradation 1](naudio-nvideo-corei7-local-video-degradation-1.jpg)
+![video degradation 2](naudio-nvideo-corei7-local-video-degradation-2.jpg)
+---
+
+и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задершжки достигают 140ms:
+![video degradation bits](naudio-nvideo-corei7-local-video-degradation-bits.jpg)
+---
+
+Ожидаемо качество этого звонка было выше чем в предыдущем тесте из-за уменьшения видео-потоков.
+
+
+
 
