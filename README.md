@@ -142,7 +142,9 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ---
 
 и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задершжки достигают 140ms:
-![video degradation bits](naudio-nvideo-corei7-local-video-degradation-bits.jpg)
+![video degradation bits 1](naudio-nvideo-corei7-local-video-degradation-bits-1.jpg)
+![video degradation bits 2](naudio-nvideo-corei7-local-video-degradation-bits-2.jpg)
+![video degradation bits 3](naudio-nvideo-corei7-local-video-degradation-bits-3.jpg)
 ---
 
 Ожидаемо качество этого звонка было выше чем в предыдущем тесте из-за уменьшения видео-потоков.
