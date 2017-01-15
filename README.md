@@ -131,7 +131,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 
 Увеличение нагрузки сказывается только на задержках до 220 ms и RTT до 90ms:
 
-![current delay](naudio-1video-corei7-local-currentDelayMs.jpg)
+![current delay](naudio-1video-corei7-local-CurrentDelayMs.jpg)
 ![round trip time](naudio-1video-corei7-local-Rtt.jpg)
 ---
 
