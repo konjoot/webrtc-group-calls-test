@@ -92,8 +92,8 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 
 ### Аудио.
 Пакеты не теряются:
-![bits received per second](naudio-Nvideo-corei7-local-bitsReceivedPerSecond.jpg)
-![bits sent per second](naudio-Nvideo-corei7-local-bitsSentPerSecond.jpg)
+![bits received per second](naudio-nvideo-corei7-local-bitsReceivedPerSecond.jpg)
+![bits sent per second](naudio-nvideo-corei7-local-bitsSentPerSecond.jpg)
 
 Увеличение нагрузки сказывается только на задержках до 350 ms и RTT до 180ms:
 ![current delay](naudio-nvideo-corei7-local-googCurrentDelayMs.jpg)
