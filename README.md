@@ -187,7 +187,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ---
 
 ### Видео.
-Пакеты не теряются, однако с пятой сессии качество видео начинает понижаться с 640х480 -> 480x360 -> 360x240:
+C первой сессии качество видео начинает понижаться с 640х480 -> 480x360 -> 360x240:
 ![video frame height sent](naudio-nvideo-dualCore-local-FrameHeightSent.jpg)
 ![video frame height received](naudio-nvideo-dualCore-local-FrameReceived.jpg)
 ---
