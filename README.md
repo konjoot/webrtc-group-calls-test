@@ -253,14 +253,16 @@ C первой сессии качество видео начинает пон�
 ---
 
 ### Видео.
-Пакеты не теряются, однако с шестой сессии качество видео начинает понижаться с 640х480 -> 480x360:
+Качество видео начинает падать начиная с первой сессии 640х480 -> 480x360 -> 360x240:
 ![video degradation 1](naudio-1video-dualCore-remote-FrameHeightSent.jpg)
 ![video degradation 2](naudio-1video-dualCore-remote-FrameWidthSent.jpg)
 ---
 
 и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задержки достигают 140ms:
 ![video degradation bits 1](naudio-1video-dualCore-remote-videoBitsReceivedPerSecond.jpg)
-![video degradation bits 2](naudio-1video-dualCore-remote-video-rtt.jpg)
+![video degradation bits 2](naudio-1video-dualCore-remote-video-bitsSent.jpg)
+![video degradation bits 3](naudio-1video-dualCore-remote-video-rtt.jpg)
+![video degradation bits 3](naudio-1video-dualCore-remote-video-rtt-sent.jpg)
 
 ---
 
