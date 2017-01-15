@@ -90,6 +90,8 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 
 ## HP семь локальных N аудио + N видео сессий.
 
+В этом тесте было установлено 7 локальных сессий с разных владок браузера (GoogleChrome) к восьмой вкладке, на которой и проводился тест. Т.к. для передачи медиа использовался localhost сетевые потери минимальны.
+
 ### Аудио.
 
 Пакеты не теряются:
@@ -109,6 +111,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ![video degradation](naudio-nvideo-corei7-local-video-degradation.jpg)
 ---
 
-и уменьшается кол-во передаваемых пакетов, но пакеты не теряются:
+и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задершжки достигают 250ms:
 ![video degradation bits](naudio-nvideo-corei7-local-video-degradation-bits.jpg)
 ---
+
