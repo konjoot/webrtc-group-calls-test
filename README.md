@@ -213,7 +213,7 @@ C первой сессии качество видео начинает пон�
 
 Увеличение нагрузки сказывается и на задержках до 1000 ms и зашкаливающем RTT:
 
-![current delay](naudio-nvideo-dualCore-remote-googCurrentDelayMs.jpg)
+![current delay](naudio-nvideo-dualCore-remote-CurrentDelayMs.jpg)
 ![round trip time](naudio-nvideo-dualCore-remote-Rtt.jpg)
 ---
 
