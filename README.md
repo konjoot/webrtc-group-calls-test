@@ -106,7 +106,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ![round trip time](naudio-nvideo-corei7-local-Rtt.jpg)
 ---
 
-## Видео.
+### Видео.
 Пакеты не теряются, однако с пятой сессии качество видео начинает понижаться с 640х480 -> 480x360 -> 360x240:
 ![video degradation](naudio-nvideo-corei7-local-video-degradation.jpg)
 ---
@@ -114,4 +114,6 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 и уменьшается кол-во передаваемых пакетов, но пакеты не теряются, задершжки достигают 250ms:
 ![video degradation bits](naudio-nvideo-corei7-local-video-degradation-bits.jpg)
 ---
+
+В целом не смотря на то, что задержки порой были ощутимы и деградацию видео групповой звонок работал до конца теста.
 
