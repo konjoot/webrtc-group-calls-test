@@ -168,5 +168,39 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 
 Ожидаемо качество этого звонка было выше чем в предыдущем тесте.
 
+## Asus три локальных N аудио + N видео сессий.
+
+В этом тесте было установлено 3 локальных сессий (аудио и видео) с разных владок браузера (GoogleChrome) к восьмой вкладке (аудио и видео), на которой и проводился тест. Т.к. для передачи медиа использовался localhost сетевые потери минимальны.
+
+### Аудио.
+
+Потери пакетов начинаются уже с третьей сессии:
+
+![bits received per second](naudio-nvideo-dualCore-local-bitsReceivedPerSecond.jpg)
+![bits sent per second](naudio-nvideo-dualCore-local-bitsSentPerSecond.jpg)
+---
+
+Увеличение нагрузки сильно сказывается на задержках до 1000ms и RTT до 440ms:
+
+![current delay](naudio-nvideo-dualCore-local-CurrentDelayMs.jpg)
+![round trip time](naudio-nvideo-dualCore-local-Rtt.jpg)
+---
+
+### Видео.
+Пакеты не теряются, однако с пятой сессии качество видео начинает понижаться с 640х480 -> 480x360 -> 360x240:
+![video frame height sent](naudio-nvideo-dualCore-local-FrameHeightSent.jpg)
+![video frame height received](naudio-nvideo-dualCore-local-FrameReceived.jpg)
+---
+
+уменьшается кол-во передаваемых пакетов, пакеты теряются начиная со второй сессии, задержки достигают 400ms:
+![video degradation bits received](naudio-nvideo-dualCore-local-videoBitsReceivedPerSecond.jpg)
+![video degradation bits received](naudio-nvideo-dualCore-local-videoBitsSentPerSecond.jpg)
+---
+
+В целом Asus еле вытянул три локальных звонка, качество с каждой новой сессией падало ощутимо. Две одновременные локальные сессии - это максимум на что способен Asus при трех сессиях практически невозможно становится учавствовать в групповом звонке.
+
+
+
+
 
 
