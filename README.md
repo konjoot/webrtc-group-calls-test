@@ -147,7 +147,7 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 ![video degradation bits 3](naudio-1video-corei7-local-video-degradation-bits-3.jpg)
 ---
 
-Ожидаемо качество этого звонка было выше чем в предыдущем тесте из-за уменьшения видео-потоков.
+Ожидаемо качество этого звонка было выше чем в предыдущем тесте из-за уменьшения кол-ва видео-потоков.
 
 
 
