@@ -242,7 +242,7 @@ C первой сессии качество видео начинает пон�
 
 Пакеты не теряются:
 
-![bits received per second](naudio-1video-dualCore-remote-bitsReceivedPerSecond.jpg)
+![bits received per second](naudio-1video-dualCore-remote-bitsRecvPerSecond.jpg)
 ![bits sent per second](naudio-1video-dualCore-remote-bitsSentPerSecond.jpg)
 ---
 
