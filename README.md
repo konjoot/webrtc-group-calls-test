@@ -149,6 +149,24 @@ Info:      Processes: 168 Uptime: 5:54 Memory: 1454.7/3956.6MB Init: systemd v: 
 
 Ожидаемо качество этого звонка было выше чем в предыдущем тесте из-за уменьшения кол-ва видео-потоков.
 
+## HP семь локальных N аудио + 0 видео сессий.
+
+В этом тесте было установлено 7 локальных (только аудио) сессий с разных владок браузера (GoogleChrome) к восьмой вкладке (аудио), на которой и проводился тест. Т.к. для передачи медиа использовался localhost сетевые потери минимальны.
+
+### Аудио.
+
+Пакеты не теряются:
+
+![bits received per second](naudio-0video-corei7-local-bitsReceivedPerSecond.jpg)
+![bits sent per second](naudio-0video-corei7-local-bitsSentPerSecond.jpg)
+---
+
+Увеличение нагрузки практически не сказывается только на задержках, RTT не превышает 50ms:
+
+![current delay](naudio-0video-corei7-local-CurrentDelayMs.jpg)
+---
+
+Ожидаемо качество этого звонка было выше чем в предыдущем тесте.
 
 
 
